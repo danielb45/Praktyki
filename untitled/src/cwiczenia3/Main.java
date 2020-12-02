@@ -1,7 +1,6 @@
 package cwiczenia3;
 
 public class Main {
-['']
         public static int rekur(int x){
             if (x>0){
                 return rekur(x-1);
@@ -21,12 +20,6 @@ public class Main {
 
         public static float funkcja_kwadratowa ( float x){
             return 2 * x * x - 3 * x + 4;
-        }
-
-        public static void print_table (int[] arr){
-            for (int i = 0; i < tab.length; i++) {
-                System.out.print(arr[i] + ", ");
-            }
         }
             public static void main (String[]args){
 //                System.out.println(funkcja_kwadratowa(5));
