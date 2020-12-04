@@ -1,6 +1,6 @@
-package zadanie1;
+package cwiczenia;
 
-public class Main {
+public class zad {
     public static void main (String[] args){
 
         int[] tablica = {1,2,3,4,5,6,7,8,9,10};
