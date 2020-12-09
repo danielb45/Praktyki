@@ -9,7 +9,6 @@ public class Main {
     public static void rzut(){
         SecureRandom random = new SecureRandom();
         int i = random.nextInt(2);
-        i++;
         if(i==1){
             System.out.println("Orzel");
         }
