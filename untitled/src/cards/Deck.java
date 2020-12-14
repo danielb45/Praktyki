@@ -31,7 +31,7 @@ public class Deck {
     }
 
     public Card draw(){
-
+        SecureRandom random = new SecureRandom();
         int index = random.nextInt();
         Card card = deck.get(index);
         deck.remove(index);
